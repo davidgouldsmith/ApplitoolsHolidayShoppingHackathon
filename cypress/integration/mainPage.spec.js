@@ -2,7 +2,7 @@
 
 describe("AppliFashion Main Page", () => {
   beforeEach(() => {
-    cy.visit('https://demo.applitools.com/tlcHackathonMasterV2.html');
+    cy.visit('http://demo.applitools.com/tlcHackathonMasterV1.html');
   });
   afterEach(() => {
     cy.eyesClose();
