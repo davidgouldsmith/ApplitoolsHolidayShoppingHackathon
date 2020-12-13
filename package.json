@@ -1,0 +1,19 @@
+{
+  "name": "holidayhackathon2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "test:v1": "CYPRESS_BASE_URL=https://demo.applitools.com/tlcHackathonMasterV1.html cypress run",
+    "test:dev": "CYPRESS_BASE_URL=https://demo.applitools.com/tlcHackathonDev.html cypress run",
+    "test:v2": "CYPRESS_BASE_URL=https://demo.applitools.com/tlcHackathonMasterV2.html cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.16.1",
+    "cypress": "^6.1.0"
+  },
+  "dependencies": {}
+}
